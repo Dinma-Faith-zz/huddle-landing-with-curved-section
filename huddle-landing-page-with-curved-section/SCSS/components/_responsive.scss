@@ -1,0 +1,14 @@
+@include media-sml {
+  header{
+    padding: 30px 20px;
+  }
+  .screen-mockups-svg{
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+  }
+  
+  h2{
+    font-size: 20px;
+  }
+}

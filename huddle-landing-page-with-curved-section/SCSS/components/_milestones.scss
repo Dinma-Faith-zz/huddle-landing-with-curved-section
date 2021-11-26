@@ -1,0 +1,26 @@
+.milestones {
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 9rem;
+  @include milestone-heading;
+
+  .communities {
+    display: flex;
+    flex-direction: column;
+  }
+  .communities img {
+    width: 47px;
+    height: 41px;
+    order: -1;
+  }
+  .message-sent {
+    display: flex;
+    flex-direction: column;
+  }
+  .message-sent img {
+    width: 47px;
+    height: 41px;
+    order: -1;
+  }
+}

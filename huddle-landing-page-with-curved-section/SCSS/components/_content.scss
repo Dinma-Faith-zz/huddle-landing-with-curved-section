@@ -1,0 +1,78 @@
+.bg-lt-blue {
+  background: #f6fbff;
+}
+
+.container-1 {
+  @extend %content-container;
+
+  .content-1 {
+    align-self: center;
+  }
+
+  h3 {
+    @extend %h3;
+  }
+
+  p {
+    max-width: 530px;
+  }
+
+  .grow-together-img {
+    width: 30%;
+  }
+}
+
+//flowing convo section
+.container-2 {
+  margin-bottom: 10rem;
+  @extend %content-container;
+
+  .flowing-convo-img {
+    width: 30%;
+  }
+
+  .content-2 {
+    align-self: center;
+  }
+
+  h3 {
+    @extend %h3;
+  }
+  p{
+    max-width: 530px;
+  }
+}
+
+// vour user section
+.container-3 {
+  @extend %content-container;
+
+  .your-user-img {
+    width: 30%;
+    padding: 2rem 0;
+  }
+
+  .content-3 {
+    align-self: center;
+  }
+
+  h3 {
+    @extend %h3;
+  }
+  p {
+    max-width: 530px;
+  }
+}
+
+.build-community {
+  text-align: center;
+  margin-bottom: 13rem;
+}
+
+h3 {
+  @extend %h3;
+}
+
+.btn-2 {
+  @extend %btn;
+}
